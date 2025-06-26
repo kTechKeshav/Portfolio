@@ -26,6 +26,30 @@ const certificates = [
   },
   {
     id: 3,
+    title: "Coursera Foundations of User Experience",
+    issuer: "Google Coursera",
+    date: "2024",
+    image: "certificates/Coursera Foundations of User Experience (UX) Design(1) 1 of 1.png",
+    credentialUrl: "https://coursera.org/share/9bc8fbc1de7640a5d093b89eb3f35b8a",
+  },
+  {
+    id: 4,
+    title: "Coursera UX design",
+    issuer: "Google Coursera",
+    date: "2024",
+    image: "certificates/Coursera UX Design(2) 1 of 1.png",
+    credentialUrl: "https://coursera.org/share/5c36359d45959270ed753dd39dd899dc",
+  },
+  {
+    id: 5,
+    title: "Build Wireframes and low-fi Prototypes",
+    issuer: "Google Coursera",
+    date: "2024",
+    image: "certificates/Coursera UX Design low-fi Prototypes(3) 1 of 1.png",
+    credentialUrl: "https://coursera.org/share/dbf0acaf04a1d76028b5563b96bb3ef8",
+  },
+  {
+    id: 6,
     title: "Git and GitHub",
     issuer: "LetsUpgrade",
     date: "2024",
@@ -33,13 +57,22 @@ const certificates = [
     credentialUrl: "https://letsupgrade.in/",
   },
   {
-    id: 4,
+    id: 7,
     title: "Prompt Engineering",
     issuer: "LetsUpgrade",
     date: "2024",
     image: "certificates/Prompt Engineering Certificate.png",
     credentialUrl: "https://letsupgrade.in/",
   },
+  {
+    id: 8,
+    title: "Getting started with Figma",
+    issuer: "Coursera",
+    date: "2024",
+    image: "certificates/Coursera Get started with Figma 1 of 1.png",
+    credentialUrl: "https://coursera.org/share/3ab2b43f403cd2f430134a045fd33bc7",
+  },
+  
 ]
 
 const achievements = [
