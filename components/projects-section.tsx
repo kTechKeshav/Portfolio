@@ -44,6 +44,17 @@ const projects = [
   },
   {
     id: 4,
+    title: "Doc Summary Assistant",
+    description: "A full-stack AI-powered document summarization app.",
+    tech: ["React-Vite", "Node.js","Express","Tailwind CSS","pdfjs-dist","tesseract.js","@google/generative-ai","Vercel", "Render"],
+    category: "Full Stack",
+    github: "https://github.com/kTechKeshav/Doc-summery-assistant",
+    demo: "https://doc-summery-assistant.vercel.app/",
+    image: "projects/doc_sum.png",
+    featured: true,
+  },
+  {
+    id: 5,
     title: "Medwise - Smart Healthcare Solution",
     description: "Medwise is a hospital management app for efficient patient handling, appointments, and doctor registration with a user-friendly interface.",
     tech: ["React", "Node.js", "Express", "MongoDB", "HTML", "CSS", "Netlify", "Render"],
@@ -54,7 +65,7 @@ const projects = [
     featured: true,
   },
   {
-    id: 5,
+    id: 6,
     title: "TODO List Web app",
     description: "Welcome to the Todo List App, a clean and functional task manager built with React and integrated with localStorage to help you track your tasks effortlessly.",
     tech: ["React", "Node.js", "HTML","CSS","JavaScript"],
@@ -65,7 +76,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Test Forest Fire",
     description: "Forest Fire Area Prediction is a machine learning web application that predicts the area affected by a forest fire based on several environmental and regional parameters.",
     tech: ["Python", "HTML", "CSS", "Flask", "Sklearn"],
@@ -76,7 +87,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Number Guess Game",
     description: "A fun number guessing game (1–50) with real-time feedback, limited attempts, score tracking, and dynamic UI for win/loss status.",
     tech: ["React", "Tailwind CSS", "Recoil"],
@@ -87,7 +98,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "QR Code Generator",
     description: "This web application is designed to swiftly convert any text or link into a QR code image.",
     tech: ["HTML", "CSS", "JavaScript"],
