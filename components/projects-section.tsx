@@ -121,7 +121,7 @@ const projects = [
   }
 ]
 
-const categories = ["All", "ML", "Full Stack", "In progress", "Using AI"]
+const categories = ["All", "ML", "Full Stack", "In progress"]
 
 const containerVariants = {
   hidden: { opacity: 0 },
