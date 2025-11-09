@@ -44,7 +44,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Doc Summary Assistant",
+    title: "Doc Summary Assistant (Using AI)",
     description: "A full-stack AI-powered document summarization app.",
     tech: ["React-Vite", "Node.js","Express","Tailwind CSS","pdfjs-dist","tesseract.js","@google/generative-ai","Vercel", "Render"],
     category: "Full Stack",
@@ -77,6 +77,17 @@ const projects = [
   },
   {
     id: 7,
+    title: "Tic Tac Toe game using Socket.io (Using AI)",
+    description: "A real-time multiplayer Tic Tac Toe game built with Node.js, Express, and Socket.IO. Play with friends online in real-time with room-based matchmaking!",
+    tech: ["Express.js", "Node.js", "Socket.io", "HTML","CSS","JavaScript"],
+    category: "Full Stack",
+    github: "https://github.com/kTechKeshav/Tic-Tac-Toe-Game-using-Socket-IO",
+    demo: "https://tic-tac-toe-game-using-socket-io.onrender.com/",
+    image: "projects/ttt.png",
+    featured: true,
+  },
+  {
+    id: 8,
     title: "Test Forest Fire",
     description: "Forest Fire Area Prediction is a machine learning web application that predicts the area affected by a forest fire based on several environmental and regional parameters.",
     tech: ["Python", "HTML", "CSS", "Flask", "Sklearn"],
@@ -87,7 +98,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 8,
+    id: 9,
     title: "Number Guess Game",
     description: "A fun number guessing game (1–50) with real-time feedback, limited attempts, score tracking, and dynamic UI for win/loss status.",
     tech: ["React", "Tailwind CSS", "Recoil"],
@@ -98,7 +109,7 @@ const projects = [
     featured: false,
   },
   {
-    id: 9,
+    id: 10,
     title: "QR Code Generator",
     description: "This web application is designed to swiftly convert any text or link into a QR code image.",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -110,7 +121,7 @@ const projects = [
   }
 ]
 
-const categories = ["All", "ML", "Full Stack", "In progress"]
+const categories = ["All", "ML", "Full Stack", "In progress", "Using AI"]
 
 const containerVariants = {
   hidden: { opacity: 0 },
